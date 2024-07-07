@@ -14,7 +14,7 @@ function Layout() {
         <>
             <header>
                 <div className="left-section">
-                    <NavLink to="/" className="name-link">
+                    <NavLink to="/index" className="name-link">
                         <h1>Leonard Gregorios</h1> {/* Replace 'Your Name' with your actual name */}
                         <p className="navbar-text">Web Developer</p> {/* Additional text below the name */}
                     </NavLink>
@@ -24,7 +24,7 @@ function Layout() {
                     <ul className={isNavVisible ? 'show' : ''}>
                         <li>
                             <NavLink
-                                to="/"
+                                to="/index"
                                 className={({ isActive }) => (isActive ? 'active' : '')}
                                 onClick={toggleNav}
                             >

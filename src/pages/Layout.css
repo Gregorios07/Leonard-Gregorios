@@ -125,11 +125,14 @@ header {
         background-color: #f8f9fa;
         padding: 10px 0;
         z-index: 1000; /* Ensure the dropdown appears above other content */
-        margin-right: 20px; /* Add right margin */
+        margin-left: -30px; /* Add right margin */
+        border-radius: 5px;
     }
 
     .navbar ul.show {
         display: flex;
+        padding-left: 10px;
+        padding-right: 40px;
     }
 
     .hamburger {
